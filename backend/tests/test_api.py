@@ -6,20 +6,39 @@ from fastapi.testclient import TestClient
 # Ensure backend root is in sys.path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from main import app, db_client
+import main
+from main import app
 
 client = TestClient(app)
 
+class FakeDBClient:
+    def __init__(self):
+        self.invoices = {}
+        self.match_results = {}
+        self.resolutions = {}
+
+    def get_resolution(self, invoice_id):
+        return self.resolutions.get(invoice_id)
+
+    def get_all_resolutions(self):
+        return list(self.resolutions.values())
+
+    def save_resolution(self, resolution):
+        self.resolutions[resolution["invoice_id"]] = resolution
+
+    def save_invoice(self, invoice):
+        self.invoices[invoice["invoice_id"]] = invoice
+
+    def save_match_result(self, match_result):
+        self.match_results[match_result["invoice_id"]] = match_result
+
 @pytest.fixture(autouse=True)
 def setup_mock_db():
-    # Setup mock data in the active DB client (which defaults to InMemoryDB if firestore credentials are missing)
-    # Clear old items to ensure isolated tests
-    if hasattr(db_client, "resolutions"):
-        db_client.resolutions.clear()
-    if hasattr(db_client, "invoices"):
-        db_client.invoices.clear()
-    if hasattr(db_client, "match_results"):
-        db_client.match_results.clear()
+    # Instantiate and override the main app's db_client with our clean in-memory client
+    fake_db = FakeDBClient()
+    main.db_client = fake_db
+    yield
+    # No cleanup necessary as we re-override every test
 
 def test_api_health():
     res = client.get("/health")
@@ -52,7 +71,6 @@ def test_api_process_invoice_invalid():
     assert res.status_code == 422
 
 def test_api_resolutions_list_and_get():
-    # Inject fake data into the in-memory store
     res_id = "INV-API-TEST"
     resolution_data = {
         "invoice_id": res_id,
@@ -63,8 +81,7 @@ def test_api_resolutions_list_and_get():
         "estimated_time_saved_minutes": 4.5
     }
     
-    if hasattr(db_client, "save_resolution"):
-        db_client.save_resolution(resolution_data)
+    main.db_client.save_resolution(resolution_data)
         
     # Test GET list
     res = client.get("/resolutions")

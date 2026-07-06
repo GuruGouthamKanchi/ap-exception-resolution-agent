@@ -1,4 +1,5 @@
 import os
+import json
 import firebase_admin
 from firebase_admin import credentials, firestore
 from google.cloud.firestore_v1.client import Client
@@ -17,17 +18,27 @@ class FirestoreClient:
     def __init__(self):
         try:
             if not firebase_admin._apps:
-                cred_path = os.getenv("FIREBASE_CREDENTIALS_PATH")
-                if not cred_path:
-                    raise FirestoreConnectionError(
-                        "FIREBASE_CREDENTIALS_PATH environment variable is missing."
-                    )
-                if not os.path.exists(cred_path):
-                    raise FirestoreConnectionError(
-                        f"Firebase credentials file not found at path: {cred_path}"
-                    )
+                cred_json = os.getenv("FIREBASE_CREDENTIALS_JSON")
+                if cred_json:
+                    try:
+                        cred_dict = json.loads(cred_json)
+                        cred = credentials.Certificate(cred_dict)
+                    except Exception as e:
+                        raise FirestoreConnectionError(
+                            f"Failed to parse FIREBASE_CREDENTIALS_JSON environment variable: {str(e)}"
+                        )
+                else:
+                    cred_path = os.getenv("FIREBASE_CREDENTIALS_PATH")
+                    if not cred_path:
+                        raise FirestoreConnectionError(
+                            "Neither FIREBASE_CREDENTIALS_JSON nor FIREBASE_CREDENTIALS_PATH environment variable is configured."
+                        )
+                    if not os.path.exists(cred_path):
+                        raise FirestoreConnectionError(
+                            f"Firebase credentials file not found at path: {cred_path}"
+                        )
+                    cred = credentials.Certificate(cred_path)
                 
-                cred = credentials.Certificate(cred_path)
                 firebase_admin.initialize_app(cred)
                 
             self.db: Client = firestore.client()
@@ -35,6 +46,7 @@ class FirestoreClient:
             raise
         except Exception as e:
             raise FirestoreConnectionError(f"Failed to initialize Firestore Client: {str(e)}") from e
+
 
     def save_invoice(self, invoice: dict) -> None:
         """Saves an invoice to the 'invoices' collection, keyed by invoice_id."""
