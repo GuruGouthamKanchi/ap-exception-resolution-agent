@@ -1,0 +1,122 @@
+[
+  {
+    "invoice_id": "INV-5001",
+    "raw_text": "INVOICE: #INV-5001\nVendor: Nexis Office Supplies\nDate: 02-Jul-2026\nP.O. NO: PO-1001\n\nItems purchased:\n* Ergonomic chairs -- 22.0 units x $199.99 = 4,399.78 USD\n\nTotal Amount  \nDue: USD 4,399.78\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5002",
+    "raw_text": "=== TITAN INDUSTRIAL PARTS ===\nInvoice Ref: INV-5002\nDate: 04-Jul-2026\nPO Number: PO-1002\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSteel bolts pack                48.0          $12.00      USD 576.00\nHydraulic fluid                 39.0          $80.00    3,120.00 USD\n\nTotal Amount Due: $3,696.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5003",
+    "raw_text": "=== AURORA CLOUD SERVICES ===\nInvoice Ref: INV-5003\nDate: June 26, 2026\nP.O. NO: PO-1003\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSaaS Seat License               18.0       USD 45.00      810.00 USD\nStorage GB premium              19.0        0.15 USD           $2.85\nCompute resource unit           37.0       12.50 USD         $462.50\n\nTotal Amount Due: USD 1,275.35\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5004",
+    "raw_text": "=== PRIME PACKAGING CORP ===\nInvoice Ref: INV-5004\nDate: June 26, 2026\nP.O. NO: PO-1004\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nMailer envelopes                19.0           $0.45           $8.55\nPacking tape                    33.0        3.20 USD      USD 105.60\n\nTotal Amount  \nDue: 114.15 USD\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5005",
+    "raw_text": "INVOICE: #INV-5005\nVendor: Vanguard Electronics\nDate: 06/29/2026\nP.O. NO: PO-1005\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nMonitors 27inch                 49.0         $249.99      $12,249.51\n\nTotal Amount  \nDue: $12,249.51\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5006",
+    "raw_text": "=== ZENITH CATERING ===\nInvoice Ref: INV-5006\nDate: 07/04/2026\nPO Number: PO-1006\n\n--- LINE ITEMS ---\nItem: Shipping pallets\n  Qty: 11.0  @  $25.00\n  Total: USD 275.00\n\nItem: Bubble wrap rolls\n  Qty: 10.0  @  USD 45.00\n  Total: $450.00\n\nItem: Freight fee\n  Qty: 29.0  @  $150.00\n  Total: $4,350.00\n\n\nTotal Amount Due: $5,075.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5007",
+    "raw_text": "INVOICE: #INV-5007\nVendor: Apex Tooling Co\nDate: 06/29/2026\nPO Number: PO-1007\n\n--- LINE ITEMS ---\nItem: Copy paper cases\n  Qty: 34.0  @  USD 32.50\n  Total: 1,105.00 USD\n\nItem: Whiteboards\n  Qty: 39.0  @  85.00 USD\n  Total: $3,315.00\n\nItem: Ergonomic chairs\n  Qty: 12.0  @  USD 199.99\n  Total: $2,399.88\n\n\nTotal Amount Due: $6,819.88\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5008",
+    "raw_text": "=== SENTINEL FACILITIES MANAGEMENT ===\nInvoice Ref: INV-5008\nDate: July 02, 2026\nPO Number: PO-1008\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSteel bolts pack                50.0       12.00 USD      USD 600.00\nReplacement gaskets              9.0        USD 4.50       40.50 USD\nHydraulic fluid                  7.0          $80.00      USD 560.00\n\nTotal Amount Due: $1,200.50\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5009",
+    "raw_text": "INVOICE: #INV-5009\nVendor: Egis Security Systems\nDate: 2026-06-29\nP.O. NO: PO-1009\n\nItems purchased:\n* SaaS Seat License -- 11.0 units x $45.00 = USD 495.00\n\nTotal Amount Due: $495.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5010",
+    "raw_text": "INVOICE: #INV-5010\nVendor: Verdant Landscaping\nDate: 01-Jul-2026\nPO Number: PO-1010\n\nItems purchased:\n* Mailer envelopes -- 28.0 units x $0.45 = 12.60 USD\n* Packing tape -- 27.0 units x USD 3.20 = $86.40\n* Cardboard boxes small -- 18.0 units x 0.75 USD = 13.50 USD\n\nTotal Amount  \nDue: $112.50\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5011",
+    "raw_text": "=== SUMMIT MARKETING AGENCY ===\nInvoice Ref: INV-5011\nDate: 29-Jun-2026\nPO Number: PO-1011\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nUSB-C Hubs                      15.0          $39.99      USD 599.85\nMonitors 27inch                 34.0         $249.99    8,499.66 USD\n\nTotal Amount Due: $9,099.51\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5012",
+    "raw_text": "=== ATLAS CONSTRUCTION MATERIALS ===\nInvoice Ref: INV-5012\nDate: July 05, 2026\nPO Number: PO-1012\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nBubble wrap rolls                8.0       USD 45.00      360.00 USD\nFreight fee                     19.0      150.00 USD       $2,850.00\n\nTotal Amount  \nDue: 3,210.00 USD\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5013",
+    "raw_text": "=== NOVUS TECH SOLUTIONS ===\nInvoice Ref: INV-5013\nDate: July 02, 2026\nPO Number: PO-1013\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nWhiteboards                     41.0          $85.00       $3,485.00\nErgonomic chairs                50.0      199.99 USD    USD 9,999.50\nCopy paper cases                25.0       32.50 USD      812.50 USD\n\nTotal Amount  \nDue: $14,297.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5014",
+    "raw_text": "INVOICE: #INV-5014\nVendor: Pinnacle Consulting Group\nDate: 06/27/2026\nPO Number: PO-1014\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSteel bolts pack                21.0          $12.00         $252.00\nReplacement gaskets             13.0           $4.50       58.50 USD\nHydraulic fluid                 20.0          $80.00    USD 1,600.00\n\nTotal Amount  \nDue: $1,910.50\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5015",
+    "raw_text": "=== GLOBAL LOGISTICS SOLUTIONS ===\nInvoice Ref: INV-5015\nDate: 06/27/2026\nPO Number: PO-1015\n\n--- LINE ITEMS ---\nItem: Storage GB premium\n  Qty: 28.0  @  $0.15\n  Total: USD 4.20\n\nItem: Compute resource unit\n  Qty: 19.0  @  USD 12.50\n  Total: $237.50\n\nItem: SaaS Seat License\n  Qty: 13.0  @  $45.00\n  Total: $585.00\n\n\nTotal Amount Due: $826.70\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5016",
+    "raw_text": "INVOICE: #INV-5016\nVendor: Nexis Office Supplies\nDate: 07/03/2026\nPO Number: PO-1016\n\n--- LINE ITEMS ---\nItem: Cardboard boxes small\n  Qty: 12.0  @  USD 0.75\n  Total: 9.00 USD\n\n\nTotal Amount Due: 9.00 USD\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5017",
+    "raw_text": "=== TITAN INDUSTRIAL PARTS ===\nInvoice Ref: INV-5017\nDate: June 27, 2026\nPO Number: PO-1017\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nUSB-C Hubs                      29.0       39.99 USD    USD 1,159.71\nMonitors 27inch                 43.0      USD 249.99   10,749.57 USD\nHDMI Cables                     34.0           $9.99      USD 339.66\n\nTotal Amount Due: $12,248.94\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5018",
+    "raw_text": "INVOICE: #INV-5018\nVendor: Aurora Cloud Services\nDate: 2026-06-27\nP.O. NO: PO-1018\n\nItems purchased:\n* Bubble wrap rolls -- 12.0 units x $45.00 = USD 540.00\n\nTotal Amount Due: $540.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5019",
+    "raw_text": "INVOICE: #INV-5019\nVendor: Prime Packaging Corp\nDate: 07/01/2026\nP.O. NO: PO-1019\n\nItems purchased:\n* Ergonomic chairs -- 15.0 units x $200.00 = $3,000.00\n* Whiteboards -- 34.0 units x $85.00 = $2,890.00\n* Copy paper cases -- 5.0 units x USD 32.50 = $162.50\n\nTotal Amount Due: $6,053.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5020",
+    "raw_text": "=== VANGUARD ELECTRONICS ===\nInvoice Ref: INV-5020\nDate: 27-Jun-2026\nP.O. NO: PO-1020\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSteel bolts pack                24.0          $12.01      USD 288.24\n\nTotal Amount  \nDue: $288.74\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5021",
+    "raw_text": "=== ZENITH CATERING ===\nInvoice Ref: INV-5021\nDate: June 30, 2026\nP.O. NO: PO-1021\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSaaS Seat License               36.0       USD 45.01    1,620.36 USD\nStorage GB premium               6.0        0.15 USD           $0.90\nCompute resource unit           12.0       12.50 USD         $150.00\n\nTotal Amount Due: USD 1,771.26\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5022",
+    "raw_text": "=== APEX TOOLING CO ===\nInvoice Ref: INV-5022\nDate: July 04, 2026\nP.O. NO: PO-1022\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nCardboard boxes small           41.0           $0.76          $31.16\n\nTotal Amount Due: 31.66 USD\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5023",
+    "raw_text": "INVOICE: #INV-5023\nVendor: Sentinel Facilities Management\nDate: 07/03/2026\nP.O. NO: PO-1023\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nUSB-C Hubs                      13.0          $40.00         $520.00\n\nTotal Amount  \nDue: $520.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5024",
+    "raw_text": "=== EGIS SECURITY SYSTEMS ===\nInvoice Ref: INV-5024\nDate: 07/02/2026\nP.O. NO: PO-1024\n\n--- LINE ITEMS ---\nItem: Freight fee\n  Qty: 18.0  @  $150.01\n  Total: USD 2,700.18\n\nItem: Bubble wrap rolls\n  Qty: 39.0  @  USD 45.00\n  Total: $1,755.00\n\n\nTotal Amount Due: $4,455.18\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5025",
+    "raw_text": "INVOICE: #INV-5025\nVendor: Verdant Landscaping\nDate: 06/30/2026\nPO Number: PO-1025\n\n--- LINE ITEMS ---\nItem: Whiteboards\n  Qty: 20.0  @  USD 85.01\n  Total: 1,700.20 USD\n\nItem: Copy paper cases\n  Qty: 19.0  @  32.50 USD\n  Total: $617.50\n\nItem: Ergonomic chairs\n  Qty: 9.0  @  USD 199.99\n  Total: $1,799.91\n\n\nTotal Amount Due: $4,118.11\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5026",
+    "raw_text": "=== SUMMIT MARKETING AGENCY ===\nInvoice Ref: INV-5026\nDate: July 05, 2026\nPO Number: PO-1025\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nSteel bolts pack                 5.0       12.00 USD       USD 60.00\n\nTotal Amount  \nDue: USD 60.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5027",
+    "raw_text": "INVOICE: #INV-5027\nVendor: Atlas Construction Materials\nDate: 2026-07-04\nP.O. NO: PO-1025\n\nItems purchased:\n* SaaS Seat License -- 52.0 units x $45.00 = USD 2,340.00\n\nTotal Amount Due: $2,340.00\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5028",
+    "raw_text": "INVOICE: #INV-5028\nVendor: Novus Tech Solutions\nDate: 07/03/2026\nPO Number: PO-2027\n\nItems purchased:\n* Packing tape -- 18.0 units x $3.20 = $57.60\n* Mailer envelopes -- 39.0 units x $0.45 = $17.55\n\nTotal Amount  \nDue: USD 75.15\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5029",
+    "raw_text": "INVOICE: #INV-5029\nVendor: Pinnacle Consulting Group\nDate: 29-Jun-2026\nP.O. NO: PO-2027\n\nItems purchased:\n* Monitors 27inch -- 17.0 units x $249.99 = USD 4,249.83\n* HDMI Cables -- 11.0 units x $9.99 = 109.89 USD\n* USB-C Hubs -- 11.0 units x $39.99 = USD 439.89\n\nTotal Amount Due: $5,519.55\nCurrency: USD\nPlease remit payment within 30 days."
+  },
+  {
+    "invoice_id": "INV-5030",
+    "raw_text": "=== GLOBAL LOGISTICS SOLUTIONS ===\nInvoice Ref: INV-5030\nDate: July 04, 2026\nP.O. NO: PO-2027\n\nDescription                      Qty      Unit Price     Total\n--------------------------------------------------------------\nFreight fee                     48.0      USD 195.00    9,360.00 USD\nBubble wrap rolls               46.0       58.50 USD       $2,691.00\nShipping pallets                46.0       32.50 USD       $1,495.00\n\nTotal Amount Due: USD 13,546.00\nCurrency: USD\nPlease remit payment within 30 days."
+  }
+]

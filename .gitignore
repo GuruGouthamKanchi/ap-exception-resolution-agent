@@ -1,0 +1,24 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python Build and Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Node.js / Next.js Build and Caches
+node_modules/
+.next/
+out/
+build/
+
+# Firebase / Service Account Credentials
+firebase-credentials.json
+*-credentials.json
+*.json.secret

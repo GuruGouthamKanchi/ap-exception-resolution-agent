@@ -1,0 +1,572 @@
+[
+  {
+    "po_number": "PO-1001",
+    "received_items": [
+      {
+        "description": "Ergonomic chairs",
+        "quantity": 22.0,
+        "unit_price": 199.99,
+        "line_total": 4399.78
+      }
+    ],
+    "receipt_date": "2026-07-04"
+  },
+  {
+    "po_number": "PO-1002",
+    "received_items": [
+      {
+        "description": "Steel bolts pack",
+        "quantity": 48.0,
+        "unit_price": 12.0,
+        "line_total": 576.0
+      },
+      {
+        "description": "Hydraulic fluid",
+        "quantity": 39.0,
+        "unit_price": 80.0,
+        "line_total": 3120.0
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1003",
+    "received_items": [
+      {
+        "description": "SaaS Seat License",
+        "quantity": 18.0,
+        "unit_price": 45.0,
+        "line_total": 810.0
+      },
+      {
+        "description": "Storage GB premium",
+        "quantity": 19.0,
+        "unit_price": 0.15,
+        "line_total": 2.85
+      },
+      {
+        "description": "Compute resource unit",
+        "quantity": 37.0,
+        "unit_price": 12.5,
+        "line_total": 462.5
+      }
+    ],
+    "receipt_date": "2026-07-05"
+  },
+  {
+    "po_number": "PO-1004",
+    "received_items": [
+      {
+        "description": "Mailer envelopes",
+        "quantity": 19.0,
+        "unit_price": 0.45,
+        "line_total": 8.55
+      },
+      {
+        "description": "Packing tape",
+        "quantity": 33.0,
+        "unit_price": 3.2,
+        "line_total": 105.6
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1005",
+    "received_items": [
+      {
+        "description": "Monitors 27inch",
+        "quantity": 46.0,
+        "unit_price": 249.99,
+        "line_total": 11499.54
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1006",
+    "received_items": [
+      {
+        "description": "Shipping pallets",
+        "quantity": 11.0,
+        "unit_price": 25.0,
+        "line_total": 275.0
+      },
+      {
+        "description": "Bubble wrap rolls",
+        "quantity": 10.0,
+        "unit_price": 45.0,
+        "line_total": 450.0
+      },
+      {
+        "description": "Freight fee",
+        "quantity": 29.0,
+        "unit_price": 150.0,
+        "line_total": 4350.0
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1007",
+    "received_items": [
+      {
+        "description": "Copy paper cases",
+        "quantity": 34.0,
+        "unit_price": 32.5,
+        "line_total": 1105.0
+      },
+      {
+        "description": "Whiteboards",
+        "quantity": 39.0,
+        "unit_price": 85.0,
+        "line_total": 3315.0
+      },
+      {
+        "description": "Ergonomic chairs",
+        "quantity": 12.0,
+        "unit_price": 199.99,
+        "line_total": 2399.88
+      }
+    ],
+    "receipt_date": "2026-07-05"
+  },
+  {
+    "po_number": "PO-1008",
+    "received_items": [
+      {
+        "description": "Steel bolts pack",
+        "quantity": 50.0,
+        "unit_price": 12.0,
+        "line_total": 600.0
+      },
+      {
+        "description": "Replacement gaskets",
+        "quantity": 9.0,
+        "unit_price": 4.5,
+        "line_total": 40.5
+      },
+      {
+        "description": "Hydraulic fluid",
+        "quantity": 7.0,
+        "unit_price": 80.0,
+        "line_total": 560.0
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1009",
+    "received_items": [
+      {
+        "description": "SaaS Seat License",
+        "quantity": 11.0,
+        "unit_price": 45.0,
+        "line_total": 495.0
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1010",
+    "received_items": [
+      {
+        "description": "Mailer envelopes",
+        "quantity": 28.0,
+        "unit_price": 0.45,
+        "line_total": 12.6
+      },
+      {
+        "description": "Packing tape",
+        "quantity": 27.0,
+        "unit_price": 3.2,
+        "line_total": 86.4
+      },
+      {
+        "description": "Cardboard boxes small",
+        "quantity": 18.0,
+        "unit_price": 0.75,
+        "line_total": 13.5
+      }
+    ],
+    "receipt_date": "2026-07-05"
+  },
+  {
+    "po_number": "PO-1011",
+    "received_items": [
+      {
+        "description": "USB-C Hubs",
+        "quantity": 15.0,
+        "unit_price": 39.99,
+        "line_total": 599.85
+      },
+      {
+        "description": "Monitors 27inch",
+        "quantity": 34.0,
+        "unit_price": 249.99,
+        "line_total": 8499.66
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1012",
+    "received_items": [
+      {
+        "description": "Bubble wrap rolls",
+        "quantity": 5.0,
+        "unit_price": 45.0,
+        "line_total": 225.0
+      },
+      {
+        "description": "Freight fee",
+        "quantity": 19.0,
+        "unit_price": 150.0,
+        "line_total": 2850.0
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1013",
+    "received_items": [
+      {
+        "description": "Whiteboards",
+        "quantity": 41.0,
+        "unit_price": 85.0,
+        "line_total": 3485.0
+      },
+      {
+        "description": "Ergonomic chairs",
+        "quantity": 50.0,
+        "unit_price": 199.99,
+        "line_total": 9999.5
+      },
+      {
+        "description": "Copy paper cases",
+        "quantity": 25.0,
+        "unit_price": 32.5,
+        "line_total": 812.5
+      }
+    ],
+    "receipt_date": "2026-07-02"
+  },
+  {
+    "po_number": "PO-1014",
+    "received_items": [
+      {
+        "description": "Steel bolts pack",
+        "quantity": 21.0,
+        "unit_price": 12.0,
+        "line_total": 252.0
+      },
+      {
+        "description": "Replacement gaskets",
+        "quantity": 13.0,
+        "unit_price": 4.5,
+        "line_total": 58.5
+      },
+      {
+        "description": "Hydraulic fluid",
+        "quantity": 20.0,
+        "unit_price": 80.0,
+        "line_total": 1600.0
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1015",
+    "received_items": [
+      {
+        "description": "Storage GB premium",
+        "quantity": 28.0,
+        "unit_price": 0.15,
+        "line_total": 4.2
+      },
+      {
+        "description": "Compute resource unit",
+        "quantity": 19.0,
+        "unit_price": 12.5,
+        "line_total": 237.5
+      },
+      {
+        "description": "SaaS Seat License",
+        "quantity": 13.0,
+        "unit_price": 45.0,
+        "line_total": 585.0
+      }
+    ],
+    "receipt_date": "2026-07-02"
+  },
+  {
+    "po_number": "PO-1016",
+    "received_items": [
+      {
+        "description": "Cardboard boxes small",
+        "quantity": 12.0,
+        "unit_price": 0.75,
+        "line_total": 9.0
+      }
+    ],
+    "receipt_date": "2026-07-04"
+  },
+  {
+    "po_number": "PO-1017",
+    "received_items": [
+      {
+        "description": "USB-C Hubs",
+        "quantity": 29.0,
+        "unit_price": 39.99,
+        "line_total": 1159.71
+      },
+      {
+        "description": "Monitors 27inch",
+        "quantity": 43.0,
+        "unit_price": 249.99,
+        "line_total": 10749.57
+      },
+      {
+        "description": "HDMI Cables",
+        "quantity": 34.0,
+        "unit_price": 9.99,
+        "line_total": 339.66
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1018",
+    "received_items": [
+      {
+        "description": "Bubble wrap rolls",
+        "quantity": 12.0,
+        "unit_price": 45.0,
+        "line_total": 540.0
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1019",
+    "received_items": [
+      {
+        "description": "Ergonomic chairs",
+        "quantity": 15.0,
+        "unit_price": 199.99,
+        "line_total": 2999.85
+      },
+      {
+        "description": "Whiteboards",
+        "quantity": 34.0,
+        "unit_price": 85.0,
+        "line_total": 2890.0
+      },
+      {
+        "description": "Copy paper cases",
+        "quantity": 5.0,
+        "unit_price": 32.5,
+        "line_total": 162.5
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1020",
+    "received_items": [
+      {
+        "description": "Steel bolts pack",
+        "quantity": 24.0,
+        "unit_price": 12.0,
+        "line_total": 288.0
+      }
+    ],
+    "receipt_date": "2026-07-04"
+  },
+  {
+    "po_number": "PO-1021",
+    "received_items": [
+      {
+        "description": "SaaS Seat License",
+        "quantity": 36.0,
+        "unit_price": 45.0,
+        "line_total": 1620.0
+      },
+      {
+        "description": "Storage GB premium",
+        "quantity": 6.0,
+        "unit_price": 0.15,
+        "line_total": 0.9
+      },
+      {
+        "description": "Compute resource unit",
+        "quantity": 12.0,
+        "unit_price": 12.5,
+        "line_total": 150.0
+      }
+    ],
+    "receipt_date": "2026-07-04"
+  },
+  {
+    "po_number": "PO-1022",
+    "received_items": [
+      {
+        "description": "Cardboard boxes small",
+        "quantity": 41.0,
+        "unit_price": 0.75,
+        "line_total": 30.75
+      }
+    ],
+    "receipt_date": "2026-07-02"
+  },
+  {
+    "po_number": "PO-1023",
+    "received_items": [
+      {
+        "description": "USB-C Hubs",
+        "quantity": 10.0,
+        "unit_price": 39.99,
+        "line_total": 399.9
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1024",
+    "received_items": [
+      {
+        "description": "Freight fee",
+        "quantity": 18.0,
+        "unit_price": 150.0,
+        "line_total": 2700.0
+      },
+      {
+        "description": "Bubble wrap rolls",
+        "quantity": 39.0,
+        "unit_price": 45.0,
+        "line_total": 1755.0
+      }
+    ],
+    "receipt_date": "2026-07-02"
+  },
+  {
+    "po_number": "PO-1025",
+    "received_items": [
+      {
+        "description": "Whiteboards",
+        "quantity": 20.0,
+        "unit_price": 85.0,
+        "line_total": 1700.0
+      },
+      {
+        "description": "Copy paper cases",
+        "quantity": 19.0,
+        "unit_price": 32.5,
+        "line_total": 617.5
+      },
+      {
+        "description": "Ergonomic chairs",
+        "quantity": 9.0,
+        "unit_price": 199.99,
+        "line_total": 1799.91
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1026",
+    "received_items": [
+      {
+        "description": "Steel bolts pack",
+        "quantity": 5.0,
+        "unit_price": 12.0,
+        "line_total": 60.0
+      },
+      {
+        "description": "Hydraulic fluid",
+        "quantity": 9.0,
+        "unit_price": 80.0,
+        "line_total": 720.0
+      }
+    ],
+    "receipt_date": "2026-07-04"
+  },
+  {
+    "po_number": "PO-1027",
+    "received_items": [
+      {
+        "description": "SaaS Seat License",
+        "quantity": 26.0,
+        "unit_price": 45.0,
+        "line_total": 1170.0
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1028",
+    "received_items": [
+      {
+        "description": "Packing tape",
+        "quantity": 18.0,
+        "unit_price": 3.2,
+        "line_total": 57.6
+      },
+      {
+        "description": "Mailer envelopes",
+        "quantity": 39.0,
+        "unit_price": 0.45,
+        "line_total": 17.55
+      }
+    ],
+    "receipt_date": "2026-07-01"
+  },
+  {
+    "po_number": "PO-1029",
+    "received_items": [
+      {
+        "description": "Monitors 27inch",
+        "quantity": 17.0,
+        "unit_price": 249.99,
+        "line_total": 4249.83
+      },
+      {
+        "description": "HDMI Cables",
+        "quantity": 11.0,
+        "unit_price": 9.99,
+        "line_total": 109.89
+      },
+      {
+        "description": "USB-C Hubs",
+        "quantity": 11.0,
+        "unit_price": 39.99,
+        "line_total": 439.89
+      }
+    ],
+    "receipt_date": "2026-07-03"
+  },
+  {
+    "po_number": "PO-1030",
+    "received_items": [
+      {
+        "description": "Freight fee",
+        "quantity": 48.0,
+        "unit_price": 150.0,
+        "line_total": 7200.0
+      },
+      {
+        "description": "Bubble wrap rolls",
+        "quantity": 46.0,
+        "unit_price": 45.0,
+        "line_total": 2070.0
+      },
+      {
+        "description": "Shipping pallets",
+        "quantity": 46.0,
+        "unit_price": 25.0,
+        "line_total": 1150.0
+      }
+    ],
+    "receipt_date": "2026-07-05"
+  }
+]
