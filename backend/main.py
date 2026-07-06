@@ -20,11 +20,16 @@ logger = logging.getLogger("AP_Agent_API")
 
 app = FastAPI(title="AP Exception Resolution Agent API")
 
-# Enable CORS for Next.js frontend (allows both localhost and deployed Vercel apps)
+# Enable CORS for Next.js frontend (restricted to localhost and deployed Vercel instance)
+origins = [
+    "http://localhost:3000",
+    "https://ap-exception-resolution-agent.vercel.app",
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=False,
+    allow_origins=origins,
+    allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )

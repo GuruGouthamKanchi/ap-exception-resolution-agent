@@ -55,6 +55,42 @@ Confirm the backend works by visiting:
 
 ---
 
+## 🔄 Auto-Deploy and Manual Redeployment
+Render automatically deploys on every push to your connected `main` branch on GitHub. 
+If auto-deploy is turned off in your settings, you can trigger a deployment manually:
+1. Go to your Web Service page in the **Render Dashboard**.
+2. Click the **Manual Deploy** dropdown in the top right.
+3. Select **Clear Build Cache & Deploy**.
+
+---
+
+## 🔍 Deployed Smoke-Test Checklist
+
+Follow these verification checks to confirm the live cloud system is operational:
+
+1. **Verify Backend Health**:
+   * Navigate directly to: `https://ap-exception-resolution-agent.onrender.com/health` (or your active service URL).
+   * Confirm that it returns: `{"status": "ok"}`.
+   * *Note*: If the page spins, wait 30-60 seconds for Render's container to cold-start.
+
+2. **Verify CORS Connection**:
+   * Load the deployed Vercel frontend URL: `https://ap-exception-resolution-agent.vercel.app/`.
+   * Confirm the dashboard cards and lists load without any `"Connection Failed"` overlays or CORS errors in your browser console (F12).
+
+3. **Verify DB Data Loading**:
+   * Confirm the dashboard metrics show non-zero numbers representing the seeded 30 Purchase Orders and resolutions.
+
+4. **Verify E2E Processing Pipeline**:
+   * Go to the **Process Invoice** tab in your Vercel frontend.
+   * Click **Select Sample** -> choose **INV-5001 (Clean Match)** or **INV-5026 (Major Mismatch)**.
+   * Click **Process Invoice** and verify that all stages complete successfully and the corresponding discrepancy/reasoning panels are populated.
+
+5. **Verify Live Render Logs**:
+   * Navigate to the **Logs** tab of your service in the Render Dashboard during your processing run.
+   * Confirm that incoming POST requests to `/process-invoice` are logged with status code `200` or `201` without swallowing exceptions.
+
+---
+
 ## ⚠️ Render Free Tier Warm-up Gotcha
 
 > [!WARNING]
@@ -63,3 +99,4 @@ Confirm the backend works by visiting:
 > When suspended, the next request will trigger a **cold-start**, which takes **30 to 60 seconds** to provision and boot the server container. During your live demo, a slow first request might be mistaken for a bug. 
 > 
 > **Recommendation**: Hit the `/health` endpoint of your deployed service a minute or two before starting your demo to warm the server container up!
+
