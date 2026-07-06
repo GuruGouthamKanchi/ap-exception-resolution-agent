@@ -1,6 +1,6 @@
 import { DashboardSummary, Resolution, PipelineSummary } from "./types";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || (process.env.NODE_ENV === "development" ? "http://localhost:8000" : "");
 
 export async function getDashboardSummary(): Promise<DashboardSummary> {
   const res = await fetch(`${API_URL}/dashboard-summary`, { cache: "no-store" });
