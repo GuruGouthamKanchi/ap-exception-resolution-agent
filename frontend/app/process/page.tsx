@@ -179,7 +179,7 @@ export default function ProcessInvoicePage() {
               <button
                 type="submit"
                 disabled={loading}
-                className={`w-full flex items-center justify-center space-x-2 px-4 py-2.5 rounded text-sm font-semibold text-white bg-teal-655 hover:bg-teal-700 transition-colors ${
+                className={`w-full flex items-center justify-center space-x-2 px-4 py-2.5 rounded text-sm font-semibold text-white bg-teal-600 hover:bg-teal-700 transition-colors ${
                   loading ? "opacity-50 cursor-not-allowed animate-pulse" : ""
                 }`}
               >
