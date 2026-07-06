@@ -1,0 +1,15 @@
+name: Keep Render Backend Active
+
+on:
+  schedule:
+    # Run every 10 minutes to keep Render Free Tier from spinning down
+    - cron: '*/10 * * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Health Endpoint
+        run: |
+          curl -s https://ap-exception-resolution-agent.onrender.com/health
